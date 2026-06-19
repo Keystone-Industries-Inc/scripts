@@ -10,7 +10,7 @@ FINAL GRAPH-ONLY replacement script.
 - Uses Microsoft Graph app-only certificate auth for the email report.
 - Deletes log/report files older than the configured retention period.
 - Sends email ONLY when changes are made OR when the script fails.
-- Does NOT email when the script succeeds with no changes.
+- Does NOT email when the script succeeds with no changes. 
 
 CRITICAL RUN CONTEXT
 - Run this script as the SAME Windows account that owns the certificate in Cert:\CurrentUser\My.
